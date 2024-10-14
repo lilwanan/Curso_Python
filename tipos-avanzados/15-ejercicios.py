@@ -46,7 +46,8 @@ def mayores(lista):
     for orden in lista:
         if maximo > orden[1]:
             break
-        respuesta[orden[0]] = orden[1]
+        else:
+            respuesta[orden[0]] = orden[1]
     return respuesta
 
 
